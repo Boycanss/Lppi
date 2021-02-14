@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  
+  button.cartButton{
+    margin:0 7px;
+}
+
+div.page{
+  padding: 25px;
+}
+
+
+a.navlink-link2{
+  color:rgb(26, 26, 26);
+}
+
+ a.navlink-link{
+  color:rgb(26, 26, 26);
+  margin: 0 10px;
+}
+
+a.navlink-link:hover,
+a.navlink-link2:hover{
+  text-decoration: none;
+  color:rgb(102, 102, 102);
+}
+
+div.dropdown-menu.show{
+  max-height: 300px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+div.dropdown-menu.show::-webkit-scrollbar,
+body::-webkit-scrollbar,
+div.dd2::-webkit-scrollbar{
+  display: none;
+}
+
+div.dd2{
+  padding: 20px;
+    position: absolute;
+    background:  white;
+    border: 1px lightblue solid;
+    max-height: 260px;
+    overflow-y: scroll;
+}
+
+div.dd2:hover{
+  background-color:white;
+}
